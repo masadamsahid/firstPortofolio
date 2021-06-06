@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.head-margin{
+  margin-top: 5em;
+  height: 5em;
+}
+
+.header-color{
+  background: #2b2e4a;
+  background: -webkit-linear-gradient(to right, #2b2e4a, #e84545);
+  background: linear-gradient(45deg, #51c2d5, #16c79a);
+}
+
+.grid{
+  background: #dcf0fa;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: max-content;
+}
+
+.projects-grid{
+  display: flex;
+}
+
+.avatar-img{
+  border-radius: 50%;
+  height: 200px;
+  display: inline-block;
+}
+
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: white;
+  font-size: 4em;
+  padding: 8px;
+}
+ .flex{
+   display: flex;
+ }
+
+ .contents{
+   text-align: center;
+ }
+
+ .content-sec, .lang-sec{
+   width: 50%;
+   margin: 5em auto 0;
+ }
+
+ .content-sec h3, .lang-sec h3{
+   padding-bottom: .25em;
+   border-bottom: 4px solid #51c2d5;
+ }
+
+ .content-sec ul{
+   list-style-type: none;
+ }
+
+.content-sec li{
+  font-size: 1em;
+  display: inline-block;
+  background-color: #16c79a;
+  color: white;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 1em;
+  transition: all .3s;
+}
+
+.content-sec li:hover{
+  background-color: white;
+  color: #16c79a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lang-sec ul{
+
+}
+
+.lang-sec li{
+  font-size: 1.5em;
+  display: block;
+  width: fit-content;
+  background-color: transparent;
+  color: black;
+  padding: 0 30px 10px 0;
+  border-bottom: 2px solid #51c2d5;
+}
+
+.lang-sec p{
+  text-align: left;
+  margin-bottom: 2em;
+  color: rgba(0,0,0, 0.7);
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item{
+  flex: 50%;
+}
+
+.certif-container{
+  margin: 2em auto;
+}
+
+.certif-container img{
+  width: 500px;
+}
+
+.kontak-img{
+  height: 20em;
+  margin: 2em auto;
+  border-radius: 2em;
+  border: 1em solid white;
+}
