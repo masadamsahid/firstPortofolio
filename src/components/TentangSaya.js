@@ -18,7 +18,7 @@ class TentangSaya extends Component{
                             <h6>Just an Ordinary Student</h6>
 
                             <div className={"content-sec"}>
-                                <h3>About Me</h3>
+                                <h3>About-Me</h3>
                                 <p>
                                     I'm currently attending my third year of Computer and Information System at UGM
                                 </p>
